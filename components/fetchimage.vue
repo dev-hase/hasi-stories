@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="withborder">
 
         <nuxt-img 
           provider="cloudinary" 
@@ -10,7 +10,7 @@
           crop="fill"
           fetchFormat="auto"
           quality="auto"
-          class="para w-full"
+          class="para"
           width="1024px"
         />      
 
@@ -45,3 +45,19 @@ export default {
 
 };  
 </script>
+
+<style>
+
+.withborder { 
+    background-image: url(/border.png);
+    background-size: 100% 100%;
+    margin: .5rem;
+    }
+    
+.withborder img {
+    mix-blend-mode: darken; 
+    padding-top: 15px;
+    padding-right: 15px;
+}
+
+</style>
