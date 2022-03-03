@@ -1,4 +1,5 @@
 <template>
+
     <div class="withborder">
 
         <nuxt-img 
@@ -14,7 +15,8 @@
           width="1024px"
         />      
 
-    </div>    
+    </div>  
+
 </template>
 
 <script>  
@@ -49,15 +51,15 @@ export default {
 <style>
 
 .withborder { 
+
     background-image: url(/border.png);
     background-size: 100% 100%;
-    margin: .5rem;
     }
     
 .withborder img {
+
     mix-blend-mode: darken; 
-    padding-top: 15px;
-    padding-right: 15px;
+
 }
 
 </style>

@@ -13,7 +13,7 @@
 
         </div>
  
-        <nuxt-content :document="article" class="text-gray-300 italic text-right leading-relaxed md:leading-loose tracking-narrow text-2xl md:text-3xl" />
+        <nuxt-content :document="article" class="text-gray-100 italic font-bold text-right leading-relaxed md:leading-loose tracking-narrow text-2xl md:text-3xl" />
 
 
     </div>
@@ -74,33 +74,74 @@ html {
 }
 
 .stories-mystic {
-    background: #831843;
+    background-color: #831843;
+    background-image: url(/canvas.png);
+    background-size: 50rem;
+    background-blend-mode: multiply;
+}
+
+.stories-mystic p {
+
+text-shadow: 0 0.1em 20px rgba(0, 0, 0, 1), 0.05em -0.03em 0 rgba(0, 0, 0, 1),
+    0.05em 0.005em 0 rgba(0, 0, 0, 1), 0em 0.08em 0 rgba(0, 0, 0, 1),
+    0.05em 0.08em 0 rgba(0, 0, 0, 1), 0px -0.03em 0 rgba(0, 0, 0, 1),
+    -0.03em -0.03em 0 rgba(0, 0, 0, 1), -0.03em 0.08em 0 rgba(0, 0, 0, 1), -0.03em 0 0 rgba(0, 0, 0, 1) !important;
+
 }
 
 .stories-mystic em{
     background: #eee;
     color: #831843;
-    padding: .25rem .5rem
+    padding: .25rem .5rem;
+    text-shadow: none;
 }
 
 .stories-fresh {
-    background: #077a5d;
+    background-color: #077a5d;
+    background-image: url(/canvas.png);
+    background-size: 50rem;
+    background-blend-mode: multiply;
+}
+
+.stories-fresh p {
+
+text-shadow: 0 0.1em 20px rgba(0, 0, 0, 1), 0.05em -0.03em 0 rgba(0, 0, 0, 1),
+    0.05em 0.005em 0 rgba(0, 0, 0, 1), 0em 0.08em 0 rgba(0, 0, 0, 1),
+    0.05em 0.08em 0 rgba(0, 0, 0, 1), 0px -0.03em 0 rgba(0, 0, 0, 1),
+    -0.03em -0.03em 0 rgba(0, 0, 0, 1), -0.03em 0.08em 0 rgba(0, 0, 0, 1), -0.03em 0 0 rgba(0, 0, 0, 1) !important;
+
 }
 
 .stories-fresh em{
     background: #eee;
     color: #077a5d;
-    padding: .25rem .5rem
+    padding: .25rem .5rem;
+    text-shadow: none;
+
 }
 
 .stories-dark {
-    background: #060219;
+    background-color: #060219;
+    background-image: url(/canvas.png);    
+    background-size: 50rem;
+    background-blend-mode: multiply;
+
+}
+
+.stories-dark p {
+
+text-shadow: 0 0.1em 20px rgba(0, 0, 0, 1), 0.05em -0.03em 0 rgba(0, 0, 0, 1),
+    0.05em 0.005em 0 rgba(0, 0, 0, 1), 0em 0.08em 0 rgba(0, 0, 0, 1),
+    0.05em 0.08em 0 rgba(0, 0, 0, 1), 0px -0.03em 0 rgba(0, 0, 0, 1),
+    -0.03em -0.03em 0 rgba(0, 0, 0, 1), -0.03em 0.08em 0 rgba(0, 0, 0, 1), -0.03em 0 0 rgba(0, 0, 0, 1) !important;
+
 }
 
 .stories-dark em{
     background: #eee;
     color: #060219;
-    padding: .25rem .5rem
+    padding: .25rem .5rem;
+    text-shadow: none;
 
 }
 
