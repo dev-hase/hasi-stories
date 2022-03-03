@@ -6,7 +6,7 @@ class: stories-fresh
 
 Nur wenige Lichtjahre von hier...
 
-...eine Galaxie mit einem schönen <yell>Wasserplaneten!</yell>
+...eine Galaxie mit einem schönen Wasserplaneten!
 
 <fetchimage folder="hasi/" image="wasserplanet_tfjcaa"></fetchimage>
 
