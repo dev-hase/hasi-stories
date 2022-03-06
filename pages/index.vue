@@ -7,13 +7,13 @@
 
         <div class="articleheader mt-16 mx-5 mt-10 w-3/4 lg:w-3/5">
 
-            <h1 class="pt-4 text-5xl md:text-6xl text-gray-200 font-black"><glitchi>{{article.title}}</glitchi></h1>
+            <h1 class="pt-4 text-5xl md:text-6xl font-black tracking-tighter md:tracking-normal"><glitchi>{{article.title}}</glitchi></h1>
 
-            <h2 class="pt-4 pb-10 text-md md:text-xl text-gray-200 font-thinnest"><glitchi>{{article.description}}</glitchi></h2>
+            <h2 class="pt-4 pb-10 text-md md:text-xl font-thinnest"><glitchi>{{article.description}}</glitchi></h2>
 
         </div>
  
-        <nuxt-content :document="article" class="text-gray-100 italic font-bold text-right leading-relaxed md:leading-loose tracking-narrow text-2xl md:text-3xl" />
+        <nuxt-content :document="article" class="text-gray-100 italic font-bold text-right leading-relaxed md:leading-loose tracking-tight md:tracking-normal text-2xl md:text-3xl" />
 
 
     </div>
@@ -78,38 +78,7 @@ body {
     hyphens: auto;
 }
 
-.stories-mystic {
-    background-color: #831843;
-    background-image: url(/canvas.png);
-    background-size: 50rem;
-    background-blend-mode: multiply;
-}
-
-
-.stories-dark {
-    background-color: #060219;
-    background-image: url(/canvas.png);    
-    background-size: 50rem;
-    background-blend-mode: multiply;
-
-}
-
-
-.stories-fresh {
-    background-color: #077a5d;
-    background-image: url(/canvas.png);
-    background-size: 50rem;
-    background-blend-mode: multiply;
-}
-
-.stories-fresh p, .stories-dark p, .stories-mystic p {
-
-text-shadow: 0 0.1em 20px rgba(0, 0, 0, 1), 0.05em -0.03em 0 rgba(0, 0, 0, 1),
-    0.05em 0.005em 0 rgba(0, 0, 0, 1), 0em 0.08em 0 rgba(0, 0, 0, 1),
-    0.05em 0.08em 0 rgba(0, 0, 0, 1), 0px -0.03em 0 rgba(0, 0, 0, 1),
-    -0.03em -0.03em 0 rgba(0, 0, 0, 1), -0.03em 0.08em 0 rgba(0, 0, 0, 1), -0.03em 0 0 rgba(0, 0, 0, 1) !important;
-
-}
+/* geteilte styles */
 
 .stories-fresh em, .stories-dark em, .stories-mystic em {
     background: #f5fba5;
@@ -128,6 +97,64 @@ text-shadow: 0 0.1em 20px rgba(0, 0, 0, 1), 0.05em -0.03em 0 rgba(0, 0, 0, 1),
     letter-spacing: .125rem;
     overflow: hidden;
     display: inline-block;
+}
+
+.stories-fresh p, .stories-dark p, .stories-mystic p {
+    text-shadow: 1px 1px 5px #eee;
+}
+
+/* mystic */
+
+.stories-mystic {
+    background-color: #831843;
+    background-image: url(/canvas.png);
+    background-size: 50rem;
+    background-blend-mode: multiply;
+}
+.stories-mystic p, .stories-mystic .articleheader{
+    color: #eee;
+}
+.stories-mystic .articleheader{
+    border-top: 3px solid #eee;
+}
+
+/* dark */
+
+.stories-dark {
+    background-color: #060219;
+    background-image: url(/canvas.png);    
+    background-size: 50rem;
+    background-blend-mode: multiply;
+}
+.stories-dark p, .stories-dark .articleheader{
+    color: #eee;
+}
+.stories-dark .articleheader{
+    border-top: 3px solid #eee;
+}
+.stories-dark em {
+    background: #f0052a;
+
+}
+
+/* fresh */ 
+
+.stories-fresh {
+    background-color: #a8f8d3;
+    background-image: url(/canvas.png);
+    background-size: 50rem;
+    background-blend-mode: multiply;
+}
+.stories-fresh p, .stories-fresh .articleheader{
+    color: #446d5b;
+}
+.stories-fresh .articleheader{
+    border-top: 3px solid #446d5b;
+}
+.stories-fresh em {
+    background: #446d5b;
+    color: #fff;
+    mix-blend-mode: darken;
 }
 
 .storie {

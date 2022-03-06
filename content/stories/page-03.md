@@ -22,15 +22,15 @@ Nur wenige Lichtjahre von hier...
 
 <fetchimage folder="hasi/" image="baggerplanet_kbhqlq"></fetchimage>
 
-Auch ein Fabrikplanet, für *schwere Maschinenteile*
+Auch ein Fabrikplanet, für *schwere Maschinen&shy;teile*
 
 <fetchimage folder="hasi/" image="fabrikplanet_tqmqsd"></fetchimage>
 
-...nach der Arbeit dann mal eben zum *Schnapsplaneten*...
+...nach der Arbeit dann mal eben zum *Schnaps&shy;planeten*...
 
 <fetchimage folder="hasi/" image="schnapsplanet_y7zyhz"></fetchimage>
 
-...und gemütlich beim *Lagerfeuer*...
+...und gemütlich beim *Lager&shy;feuer*...
 
 <fetchimage folder="hasi/" image="feuerplanet_ygxza8"></fetchimage>
 

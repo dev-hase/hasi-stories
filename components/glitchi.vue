@@ -27,7 +27,6 @@ export default {
 
   line-height: 1;
   display: block;
-  color: #fff;
   z-index: 2;
 
   filter: drop-shadow(0 1px 2px);

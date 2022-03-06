@@ -14,7 +14,7 @@ class: stories-mystic
 
 <fetchimage folder="hasi/" image="Expeditionen_II_cvt00t"></fetchimage>
 
-...danach geht es dann weiter zum berühmten *Wüstenplanet*. In Allem was nicht bedeckt ist, sammelt sich der feine Sand...
+...danach geht es dann weiter zum berühmten *Wüsten&shy;planet*. In Allem was nicht bedeckt ist, sammelt sich der feine Sand...
 
 <fetchimage folder="hasi/" image="Expeditionen_I_repdar"></fetchimage>
 
