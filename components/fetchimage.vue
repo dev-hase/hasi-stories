@@ -54,6 +54,7 @@ export default {
 
     background-image: url(/border.png);
     background-size: 100% 100%;
+    margin: .5rem;
     }
     
 .withborder img {

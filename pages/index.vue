@@ -73,6 +73,11 @@ html {
     background: #831843;
 }
 
+body {
+    word-break: break-word;
+    hyphens: auto;
+}
+
 .stories-mystic {
     background-color: #831843;
     background-image: url(/canvas.png);
@@ -116,11 +121,13 @@ text-shadow: 0 0.1em 20px rgba(0, 0, 0, 1), 0.05em -0.03em 0 rgba(0, 0, 0, 1),
     text-transform: uppercase;
     font-family: "Luckiest Guy";
     font-style: normal;
-    line-height: 3.5rem;
-    padding: .5rem;
+    line-height: 2rem;
+    padding: .25rem;
     padding-top: .75rem;
     padding-bottom: 0;
     letter-spacing: .125rem;
+    overflow: hidden;
+    display: inline-block;
 }
 
 .storie {
@@ -150,6 +157,10 @@ text-shadow: 0 0.1em 20px rgba(0, 0, 0, 1), 0.05em -0.03em 0 rgba(0, 0, 0, 1),
 .nuxt-content p {
     padding: 7.5rem 2rem 3.2rem 2rem;
     margin-left: 20vw;
+}
+
+.nuxt-content p:last-of-type {
+  margin-bottom: 5rem;
 }
 
 @media screen and (min-width: 1200px) {
