@@ -26,4 +26,6 @@ class: stories-mystic
 
 <fetchimage folder="hasi/" image="Neutronenente__dw3fyh"></fetchimage>
 
+<fetchimage folder="hasi/" image="Seehase_jt1rhi"></fetchimage>
+
 *Wohin* wird es wohl als nächstes gehen???

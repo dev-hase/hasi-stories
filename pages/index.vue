@@ -103,26 +103,10 @@ body {
     text-shadow: 1px 1px 5px #eee;
 }
 
-/* mystic */
-
-.stories-mystic {
-    background-color: #831843;
-    background-image: url(/canvas.png);
-    background-size: 50rem;
-    background-blend-mode: multiply;
-}
-.stories-mystic p, .stories-mystic .articleheader{
-    color: #eee;
-}
-.stories-mystic .articleheader{
-    border-top: 3px solid #eee;
-}
-
 /* dark */
 
 .stories-dark {
-    background-color: #060219;
-    background-image: url(/canvas.png);    
+    background-color: #060219;  
     background-size: 50rem;
     background-blend-mode: multiply;
 }
@@ -137,11 +121,24 @@ body {
 
 }
 
+/* mystic */
+
+.stories-mystic {
+    background-color: #831843;
+    background-size: 50rem;
+    background-blend-mode: multiply;
+}
+.stories-mystic p, .stories-mystic .articleheader{
+    color: #eee;
+}
+.stories-mystic .articleheader{
+    border-top: 3px solid #eee;
+}
+
 /* fresh */ 
 
 .stories-fresh {
     background-color: #a8f8d3;
-    background-image: url(/canvas.png);
     background-size: 50rem;
     background-blend-mode: multiply;
 }
