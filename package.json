@@ -15,7 +15,7 @@
     "nuxt": "^2.15.8",
     "nuxt-precompress": "^0.5.9",
     "simple-parallax-js": "^5.6.2",
-    "vue": "^2.6.14",
+    "vue": "^3.2.35",
     "vue-infinite-loading": "^2.4.5",
     "vue-server-renderer": "^2.6.14",
     "vue-template-compiler": "^2.6.14",
